@@ -1,34 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
+!<!DOCTYPE html>
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
 </head>
+
 <body>
-    <div>
-        <h3>Bienvenido</h3>
-        <h1>Libreria Dubrew</h1>
-        <div>
-            <button type="button">Iniciar sesion</button>
-            <button type="button">Registrarse</button>
-        </div>
-    </div>
+  <div>
+    <h3>Bienvenido</h3>
+    <h1>Libreria Dubrew</h1>
+  </div>
+  <div>
+    <h4>Prestar un libro</h4>
+    <form action="">
+      <label for="">Nombre titulo</label>
+      <input type="text" id="tituloDelLibro" />
+      <label for="">Fecha prestamo</label>
+      <input type="date" id="fechaPrestamo" />
+      <label for="">Fecha limite de devolucion</label>
+      <input type="date" id="fechaDevolucion" />
+      <label for="">Nombre del usuario</label>
+      <input type="text" id="nombreUsuario" />
+      <label for="">Tipo de documento</label>
+      <input type="text" id="tipoDocumento" />
+      <label for="">Numero documento</label>
+      <input type="text" id="documento" />
+      <label for="">Direccion</label>
+      <input type="text" id="direccion" />
+      <label for="">Telefono</label>
+      <input type="number" id="telefono" />
+      <label for="">Correo</label>
+      <input type="text" id="correo">
 
-    <div>
-        <h1>Libreria Dubrew</h1>
-        <form action="">
-            <label for="">Nombre titulo</label>
-            <input type="text" id="tituloDelLibro">
-            <label for="">Fecha prestamo</label>
-            <input type="text" id="fechaPrestamo">
-            <label for="">Fecha limite de devolucion</label>
-            <input type="text" id="fechaDevolucion">
-            <button type="button" onclick="prestarlibro()">Aceptar</button>
-        </form>
-    </div>
-
-
-    <script src="script.js"></script>
+      <button type="button" onclick="prestarlibro()">Aceptar</button>
+    </form>
+  </div>
+  
+  <div>
+    <h2>¿Desea devolver un libro?</h2>
+    <form action="">
+      <label for="">Nombre de usuario</label>
+      <input type="text" id="nombreUsuarioDevolucion">
+      <button type="button" onclick="devolverLibro()">Aceptar</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
 </body>
+
 </html>
