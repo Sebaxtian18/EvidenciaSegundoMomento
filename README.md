@@ -3,7 +3,7 @@
 </div>
 
 ###
-
+<p align="left">Este repositorio es dedicado a la resolucion de el algoritmo #8 para presentar la evidencia de conocimientos para el segundo momento en la tecnica, Tecnico Auxiliar En Desarrollo De Software en la asignatura  WEB 1<p>
 <p align="left">Actualmente estoy cursando una técnica en desarrollo web, trabajo y el tiempo libre es solo una palabra que no conozco 😢.<br><br>Hasta el momento me muevo en el mundo del desarrollo web utilizando lenguajes como HTML, CSS, JS, Java, SQL y un poco de Android. <br>Tengo mas conocimiento en el área del front-end, pero me esta llamando mucho la atención el back-end. <br><br>Mi meta para este año, es tener un alto conocimiento en JS, SQL y Java.<br>Aparte estoy aprendiendo ingles para impulsar un poco mas tanto mi perfil laboral, como mi vida social y habilidades.</p>
 
 ###
