@@ -12,7 +12,6 @@ body {
     background-image: url(./accents/2111.w039.n003.23B.p1.23.jpg);
     background-position: center center;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .encabezado{
@@ -28,6 +27,11 @@ body {
 .titulos{
     margin-top: 15px;
 }
+.contenedor-form{
+    width: 470px;
+    height: auto;
+    background-color: #ebdef0;
+}
 .form{
     display: flex;
     justify-content: center;
@@ -35,8 +39,8 @@ body {
     background-color: #DAF7A6;
     width: 470px;
     height: 500px;
-    border-top-right-radius: 70px;
-    border-bottom-left-radius: 70px;
+    border-top-right-radius: 3000px;
+    border-bottom-right-radius: 0px;
     margin-top: 20px;
     padding: 20px;
 }

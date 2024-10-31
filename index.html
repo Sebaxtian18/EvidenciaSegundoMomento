@@ -16,13 +16,14 @@
   <div class="titulos">
     <h2>Prestar un libro</h2>
   </div>
+  <div class="contenedor-form">
     <form action="" class="form">
       <label for="">Nombre titulo</label>
       <input type="text" id="tituloDelLibro" />
       <label for="">Fecha prestamo</label>
-      <input type="date" id="fechaPrestamo"/>
+      <input type="date" id="fechaPrestamo" />
       <label for="">Fecha limite de devolucion</label>
-      <input type="date" id="fechaDevolucion"/>
+      <input type="date" id="fechaDevolucion" />
       <label for="">Nombre del usuario</label>
       <input type="text" id="nombreUsuario" />
       <label for="">Tipo de documento</label>
@@ -35,21 +36,23 @@
       <input type="number" id="telefono" />
       <label for="">Correo</label>
       <input type="text" id="correo">
-  <div>
-      <button type="button" onclick="prestarlibro()">Aceptar</button>
+      <div>
+        <button type="button" onclick="prestarlibro()">Aceptar</button>
     </form>
-
   </div>
-  
+  </div>
+
   <div class="titulos">
     <h2>¿Desea devolver un libro?</h2>
   </div>
+  <div class="contenedor-form">
     <form action="" class="form">
       <label for="">Nombre de usuario</label>
       <input type="text" id="nombreUsuarioDevolucion">
-  <div>
-    <button type="button" onclick="devolverLibro()">Aceptar</button>
+      <div>
+        <button type="button" onclick="devolverLibro()">Aceptar</button>
     </form>
+  </div>
   </div>
   <script src="script.js"></script>
 </body>
