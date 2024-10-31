@@ -5,16 +5,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Evidencia Segundo Momento</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-  <div>
+  <div class="encabezado">
     <h3>Bienvenido</h3>
     <h1>Libreria Dubrew</h1>
   </div>
-  <div>
-    <h4>Prestar un libro</h4>
-    <form action="">
+  <div class="titulos">
+    <h2>Prestar un libro</h2>
+  </div>
+    <form action="" class="form">
       <label for="">Nombre titulo</label>
       <input type="text" id="tituloDelLibro" />
       <label for="">Fecha prestamo</label>
@@ -33,17 +35,20 @@
       <input type="number" id="telefono" />
       <label for="">Correo</label>
       <input type="text" id="correo">
-
+  <div>
       <button type="button" onclick="prestarlibro()">Aceptar</button>
     </form>
+
   </div>
   
-  <div>
+  <div class="titulos">
     <h2>¿Desea devolver un libro?</h2>
-    <form action="">
+  </div>
+    <form action="" class="form">
       <label for="">Nombre de usuario</label>
       <input type="text" id="nombreUsuarioDevolucion">
-      <button type="button" onclick="devolverLibro()">Aceptar</button>
+  <div>
+    <button type="button" onclick="devolverLibro()">Aceptar</button>
     </form>
   </div>
   <script src="script.js"></script>

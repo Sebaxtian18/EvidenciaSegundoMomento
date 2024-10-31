@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./accents/2111.w039.n003.23B.p1.23.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: #DAF7A6;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 3px;
+    padding: 20px 0px;
+}
+.titulos{
+    margin-top: 15px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #DAF7A6;
+    width: 470px;
+    height: 500px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.form input[type="text"], [type="date"], input[type="number"] {
+    width: 60%;
+    height: 30px;
+    outline: none;
+    display: flex;
+  }
+.form div{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    ma
+}
+.form div button{
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+.form label{
+    margin-bottom: 3px;
+    padding: 3px;
+}
